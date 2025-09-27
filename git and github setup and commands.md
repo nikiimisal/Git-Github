@@ -17,7 +17,8 @@ Above diagram shows:
 2. Create a account on github<br>
 3. Create a folder<br>
        nikhil workspace<br>
-           |<br>
+
+           |          
            |-- git<br>
                 |--  git bash<br>
                       |<br>
