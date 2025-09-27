@@ -2,7 +2,14 @@
 
 
 ## 📊 Git &Github Workflow Diagram
+
+| **Git Workflow**        | **Git And Github**            | **Network connection**            | 
+|--------------------------------|------------------------------------|------------------------------------|
+| ![Git Workflow](https://github.com/nikiimisal/Git-Github/blob/main/img/git%20workflow.jpg?raw=true) | ![Git And Github](https://github.com/nikiimisal/Git-Github/blob/main/img/InShot_20250927_152622071.jpg?raw=true) | ![Network connection](https://github.com/nikiimisal/Git-Github/blob/main/img/What-is-Git-repository.webp?raw=true) |
+
 | ![](https://github.com/nikiimisal/Git-Github/blob/main/img/git%20workflow.jpg?raw=true) ![](https://github.com/nikiimisal/Git-Github/blob/main/img/InShot_20250927_152622071.jpg?raw=true)![](https://github.com/nikiimisal/Git-Github/blob/main/img/What-is-Git-repository.webp?raw=true) |
+
+<br>
 Above diagram shows:
 
 - **Working Directory** → where you edit files  
