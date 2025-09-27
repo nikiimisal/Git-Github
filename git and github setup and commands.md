@@ -2,9 +2,7 @@
 
 
 ## 📊 Git &Github Workflow Diagram
-![](https://github.com/nikiimisal/Git-Github/blob/main/img/git%20workflow.jpg?raw=true)
-![](https://github.com/nikiimisal/Git-Github/blob/main/img/InShot_20250927_152622071.jpg?raw=true)
-![](https://github.com/nikiimisal/Git-Github/blob/main/img/What-is-Git-repository.webp?raw=true)
+![](https://github.com/nikiimisal/Git-Github/blob/main/img/git%20workflow.jpg?raw=true) ![](https://github.com/nikiimisal/Git-Github/blob/main/img/InShot_20250927_152622071.jpg?raw=true)![](https://github.com/nikiimisal/Git-Github/blob/main/img/What-is-Git-repository.webp?raw=true)
 Above diagram shows:
 
 - **Working Directory** → where you edit files  
