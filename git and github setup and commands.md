@@ -17,10 +17,10 @@ Above diagram shows:
 2. Create a account on github<br>
 3. Create a folder<br>
        nikhil workspace<br>
-           |
-           |-- git
-                |--  git bash
-                      |
+           |<br>
+           |-- git<br>
+                |--  git bash<br>
+                      |<br>
                       |-- code . ; exit
 
 4. Inside VS code<br>
@@ -50,7 +50,17 @@ Above diagram shows:
 
 <h1>Git Status</h1>
 
+[Staging Area] ---> [L] [R] <--- [Current Directory]
 
+? ? → Untracked
+
+A [ ] → Added to staging area
+
+[ ] M → Modified in current directory
+
+M [ ] → Modified & added to staging area
+
+U U → File has conflicts
 
 
 
