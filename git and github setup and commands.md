@@ -16,8 +16,9 @@
 - **Staging Area (Index)** → use `git add <file>` to stage changes  
 - **Local Repository (HEAD)** → use `git commit -m "message"` to commit locally  
 - **Remote Repository (Github)** → use `git push` to upload to GitHub  
-
-
+<br>
+<h3>if you wan't visual setups and info</h3>
+<h4>here is link ▶️ </h4>
 <h1>🔀Quick Flow🌊</h1>
 1. Git install<br>
 2. Create a account on github<br>
