@@ -10,7 +10,7 @@
 
 
 <br>
-Above diagram shows:
+<h3>Above diagram shows:</h3>
 
 - **Working Directory** → where you edit files  
 - **Staging Area (Index)** → use `git add <file>` to stage changes  
