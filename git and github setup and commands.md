@@ -12,7 +12,7 @@ Above diagram shows:
 - **Remote Repository (Github)** → use `git push` to upload to GitHub  
 
 
-<h1>Quick Flow</h1>
+<h1>🔀Quick Flow🌊</h1>
 1. Git install<br>
 2. Create a account on github<br>
 3. Create a folder<br>
@@ -30,10 +30,9 @@ Above diagram shows:
 7. git init<br>
 8. ls -a<br>
 9. Authentaction<br>
-<br>
-    git config --global user.name "Your Name"<br>
-    git config --global user.email "Your email"<br>
-    git config --global  --list<br>
+    • git config --global user.name "Your Name"<br>
+    • git config --global user.email "Your email"<br>
+    • git config --global  --list<br>
 
 10. git status -s<br>
 11. git add.
@@ -49,7 +48,7 @@ Above diagram shows:
 19. git remote -v
 20. git push -u origin master
 
-<h1>Git Status</h1>
+<h1>📊Git Status</h1>
 
 [Staging Area] ---> [L] [R] <--- [Current Directory]
 
@@ -65,11 +64,11 @@ U U → File has conflicts
 
 
 
-<h1>Git and Github Setup</h1>
+<h1>🛠️💻Git and Github Setup</h1>
 
 <h2>🔧 Step 1: Install Git </h2>
 
-<h4>On Windows </h4>
+<h4>🪟On Windows </h4>
 
 1. Download from https://git-scm.com/download/win.
    
@@ -79,18 +78,18 @@ U U → File has conflicts
 
 4. git --version
 
-<h4>On Linux (Ubuntu/Debian)</h4>
+<h4>🐧On Linux (Ubuntu/Debian)</h4>
 
 • sudo apt update <br>
 • sudo apt install git -y <br>
 • git --version <br>
 
-<h4>On macOS</h4>
+<h4>🍎On macOS</h4>
 
 • brew install git <br>
 • git --version <br>
  
- <h2> Step 2: Configure Git (one-time only) </h2>
+ <h2>⚙ Step 2: Configure Git (one-time only) </h2>
  
 ➼ Set your Git username & email (must match your GitHub account email for commits to show): <br>
 
@@ -102,7 +101,7 @@ U U → File has conflicts
 
 ➼ git config --list 
  
-  <h2>Step 3: Initialize Git in Your VS Code Project </h2>
+  <h2>⚡Step 3: Initialize Git in Your VS Code Project </h2>
   
 ‣ Open VS Code → Terminal inside your project folder:  <br>
 
@@ -110,7 +109,7 @@ U U → File has conflicts
 
 ‣ git init 
  
-  <h2>Step 4: Add & Commit Files </h2>
+  <h2>💬Step 4: Add & Commit Files </h2>
 • git add . <br>
 
 • git commit -m "Initial commit" <br>
@@ -118,28 +117,28 @@ U U → File has conflicts
 • This stages all files and commits them (preserving folder/file sequence). <br>
  
   
-  <h2>Step 5: Create Repository on GitHub </h2>
+  <h2>➕Step 5: Create Repository on GitHub </h2>
 1. Go to GitHub. <br>
 
 2. Click New Repository → name it (e.g., my-project). <br>
 
 3. Don’t initialize with README (since you already have files locally). <br>
  
-  <h2>Step 6: Connect Local Project to GitHub</h2> 
+  <h2>🌐Step 6: Connect Local Project to GitHub</h2> 
 
 Copy repo link (HTTPS or SSH). Example (HTTPS): <br>
 
 git remote add origin https://github.com/username/my-project.git <br>
  
-  <h2>Step 7: Push to GitHub</h2> 
+  <h2>🫸Step 7: Push to GitHub</h2> 
 
-git branch -M main      # make sure branch name is 'main' <br>
+• git branch -M main      # make sure branch name is 'main' <br>
 
-git push -u origin main <br>
+• git push -u origin main <br>
 
-Now your project is on GitHub with the same file/folder structure as in VS Code  <br>       
+• Now your project is on GitHub with the same file/folder structure as in VS Code  <br>       
  
-  <h2>Step 8: Verify</h2> 
+  <h2>🔐Step 8: Verify✅</h2> 
   
 • Open your GitHub repo in the browser → You’ll see all files in the same sequence. <br>
 
@@ -153,7 +152,7 @@ Now your project is on GitHub with the same file/folder structure as in VS Code 
 
 
 
-
+<h1>Some Commands</h1>
 
 
 
