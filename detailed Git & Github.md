@@ -29,7 +29,7 @@ git push -u origin main
 ```
 
 <p align="center">
-  <img src="screenshots/init-push.png" width="700" alt="Initialize Repository Screenshot">
+  <img src="" width="700" alt="Initialize Repository Screenshot">
 </p>
 
 ---
@@ -51,7 +51,7 @@ Untracked files:
 ```
 
 <p align="center">
-  <img src="screenshots/git-status.png" width="700" alt="Git Status Screenshot">
+  <img src="" width="700" alt="Git Status Screenshot">
 </p>
 
 ---
@@ -67,7 +67,7 @@ git status                   # Back to clean state
 ```
 
 <p align="center">
-  <img src="screenshots/restore-staged.png" width="700" alt="Restore Staged Screenshot">
+  <img src="" width="700" alt="Restore Staged Screenshot">
 </p>
 
 ---
@@ -83,7 +83,7 @@ git log --oneline    # Verify clean history
 ```
 
 <p align="center">
-  <img src="screenshots/revert-commit.png" width="700" alt="Revert Commit Screenshot">
+  <img src="" width="700" alt="Revert Commit Screenshot">
 </p>
 
 ---
@@ -98,7 +98,7 @@ git reset --soft HEAD~1   # 🛡️ Safe: keeps changes staged
 ```
 
 <p align="center">
-  <img src="screenshots/reset-commit.png" width="700" alt="Reset Commit Screenshot">
+  <img src="" width="700" alt="Reset Commit Screenshot">
 </p>
 
 *🚨 Critical: Never use hard reset on shared branches!*
@@ -122,7 +122,7 @@ git pull --rebase
 ```
 
 <p align="center">
-  <img src="screenshots/pull-fetch.png" width="700" alt="Pull vs Fetch Screenshot">
+  <img src="" width="700" alt="Pull vs Fetch Screenshot">
 </p>
 
 *🏆 Recommended: Fetch + Merge for team collaboration*
@@ -140,7 +140,7 @@ git status
 ```
 
 <p align="center">
-  <img src="screenshots/clone-repo.png" width="700" alt="Clone Repository Screenshot">
+  <img src="" width="700" alt="Clone Repository Screenshot">
 </p>
 
 *🚀 Pro Tip: Use SSH URLs for faster, more secure authentication*
@@ -159,7 +159,7 @@ git diff feature main      # Branch differences
 ```
 
 <p align="center">
-  <img src="screenshots/git-diff.png" width="700" alt="Git Diff Screenshot">
+  <img src="" width="700" alt="Git Diff Screenshot">
 </p>
 
 *👀 Use Cases: Code reviews, debugging, change validation*
@@ -185,7 +185,7 @@ git branch -d feature-login
 ```
 
 <p align="center">
-  <img src="screenshots/branch-merge.png" width="700" alt="Branch and Merge Screenshot">
+  <img src="" width="700" alt="Branch and Merge Screenshot">
 </p>
 
 *🌊 Professional Practice: One feature per branch, clean merge history*
@@ -219,7 +219,7 @@ Automatic merge failed; fix conflicts and then commit the result.
 ```
 
 <p align="center">
-  <img src="screenshots/conflict-occur.png" width="700" alt="Conflict Occur Screenshot">
+  <img src="https://github.com/nikiimisal/Git-Github-GitLab/blob/main/img/git3.png?raw=true" width="700" alt="Conflict Occur Screenshot">
 </p>
 
 *⚠️ What Happened: Both branches modified the same file in overlapping lines.*
@@ -245,7 +245,7 @@ git commit -m "fix: resolve merge conflict in header.html"
 ```
 
 <p align="center">
-  <img src="https://github.com/nikiimisal/Git-Github-GitLab/blob/main/img/git3.png?raw=true" width="700" alt="Conflict Resolved Screenshot">
+  <img src="" width="700" alt="Conflict Resolved Screenshot">
 </p>
 
 *✅ Best Practice: Always discuss conflict resolutions with your teammate before finalizing.*
