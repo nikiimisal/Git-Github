@@ -60,7 +60,7 @@ Foundation for all subsequent Git interactions
 
 **Key Activities:**
 
-**Created group:** `PiyushDalvi-group1`
+**Created group:** `nik0misal-group1`
 
 **Set visibility to Private (members-only access)**
 
@@ -75,7 +75,7 @@ Logical organization of related projects
 Simplified access control across multiple repositories
 
 
-![](./img/create%20group.png)
+![](https://github.com/nikiimisal/Git-Github-GitLab/blob/main/img/gitlab2.png?raw=true)
 
 ## Stage 3: Group Verification 🏢
 
@@ -97,7 +97,7 @@ Simplified access control across multiple repositories
 
 **Confirms administrative access and settings**
 
-![](./img/group.png)
+![](https://github.com/nikiimisal/Git-Github-GitLab/blob/main/img/gitlab3.png?raw=true)
 
 ## Stage 4: Repository Creation 📁
 
@@ -123,7 +123,7 @@ Private access control
 
 Proper naming conventions followed
 
-![](./img/create%20repo.png)
+![](https://github.com/nikiimisal/Git-Github-GitLab/blob/main/img/gitlab4.png?raw=true)
 
 ## Stage 5: Code Deployment 💻
 
@@ -137,7 +137,7 @@ Added index.html file as initial content
 
 Established remote tracking with origin/main
 
-![](./img/code%20push.png)
+![](https://github.com/nikiimisal/Git-Github-GitLab/blob/main/img/gitlab5.png?raw=true)
 
 ```bash
 git init
@@ -152,7 +152,7 @@ Objects enumerated and counted
 Successful write and transfer operations
 
 Branch tracking established
-![](./img/code%20push.png)
+![](https://github.com/nikiimisal/Git-Github-GitLab/blob/main/img/gitlab6.png?raw=true)
 
 ## Stage 6: Upload Verification ✅
 
