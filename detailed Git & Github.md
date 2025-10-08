@@ -78,9 +78,17 @@ git restore --staged file.txt # No problem!
 git status                   # Back to clean state
 ```
 
-<p align="center">
-  <img src="" width="700" alt="Restore Staged Screenshot">
-</p>
+o/p except:
+
+    nik0m@Nikhil MINGW64 ~/Desktop/nik_Workspace/git/practical (master)
+    $ git add
+    nik0m@Nikhil MINGW64 ~/Desktop/nik_Workspace/git/practical (master)
+    $ git restore --staged about.html
+    nik0m@Nikhil MINGW64 ~/Desktop/nik_Workspace/git/practical (master)
+    $ git status -s
+    ?? about.html
+    nik0m@Nikhil MINGW64 ~/Desktop/nik_Workspace/git/practical (master)
+    $
 
 ---
 
@@ -93,10 +101,29 @@ git log --oneline    # Review commit history
 git revert a1b2c3d   # Create safe undo commit
 git log --oneline    # Verify clean history
 ```
+O/P Except :
 
-<p align="center">
-  <img src="" width="700" alt="Revert Commit Screenshot">
-</p>
+     nik0m@Nikhil-HD3SE36 MINGW64 ~/Desktop/nik_workspace/git/practical (master)
+     $ git commit -m 'revert.html'
+     [master bbd1e3d] revert.html
+     1 file changed, 1 insertion(+), 1 deletion(-)
+     rename about.html => revert.html (88%)
+     nik0m@Nikhil MINGW64 ~/Desktop/nik_Workspace/git/practical (master)
+     $ git log --oneline
+     bbd1e3d (HEAD -> master) revert.html
+     645c97e added aboout.html
+     9628029 added
+     d8d7ad6 (origin/master) added index.html
+     nik0m@Nikhil MINGW64 ~/Desktop/nik_Workspace/git/practical (master)
+     $ git revert bbd1e3d
+    error: there was a problem with the editor 'vi'
+    Please supply the message using either -m or -F option.
+    nik0m@Nikhil MINGW64 ~/Desktop/nik_workspace/git/practical (master)
+    $ git log --oneline
+    bbd1e3d (HEAD -> master) revert.html
+    645c97e added aboout.html
+    9628029 added
+    d8d7ad6 (origin/master) added index.html
 
 ---
 
@@ -109,9 +136,24 @@ git reset --hard HEAD~1   # ⚠️ Destructive: removes everything
 git reset --soft HEAD~1   # 🛡️ Safe: keeps changes staged
 ```
 
-<p align="center">
-  <img src="" width="700" alt="Reset Commit Screenshot">
-</p>
+O/P Except :
+
+     nik0m@Nikhil MINGW64 ~/Desktop/nik_Workspace/git/practical (master)
+     $ git log oneline
+     nik0m@Nikhil MINGW64 ~/Desktop/nik_Workspace/git/practical (master)
+     $ git log --oneline
+     3b2e4da (HEAD -> master) resethard.html
+     bbd1e3d revert.html
+     645c97e added aboout.html
+     9628029 added
+     d8d7ad6 (origin/master) added index.html
+    nik0m@Nikhil MINGW64 ~/Desktop/nik_Workspace/git/practical (master)
+     $ git reset --hard bbd1e3d
+     HEAD is now at bbd1e3d revert.html
+     nik0m@Nikhil MINGW64 ~/Desktop/nik_Workspace/git/practical (master)
+     $ git log --oneline
+     bbd1e3d (HEAD -> master) revert.html
+     645c97e added aboout.html
 
 *🚨 Critical: Never use hard reset on shared branches!*
 
@@ -133,9 +175,42 @@ git pull
 git pull --rebase
 ```
 
-<p align="center">
-  <img src="" width="700" alt="Pull vs Fetch Screenshot">
-</p>
+O/P Except :
+
+     nik0m@Nikhil MINGW64 ~/Desktop/nik_Workspace/git/practical (master)
+     $ git fetch origin
+     remote: Enumerating objects: 7, done.
+     remote: Counting objects: 100% (7/7), done.
+    remote: Compressing objects: 100% (3/3), done.
+    remote: Total 6 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+    Unpacking objects: 100% (6/6), 1.75 KiB | 39.00 KiB/s, done.
+    From https://github.com/RajAhire-1/practical
+    d8d7ad6..69cd98e master -> origin/master
+    * [new branch] main
+    -> origin/main
+     nik0m@Nikhil MINGW64 ~/Desktop/nik_Workspace/git/practical (master)
+    $ git merge origin
+    fatal: refusing to merge unrelated histories
+    nik0m@Nikhil MINGW64 ~/Desktop/nik_Workspace/git/practical (master)
+    $ git merge origin master
+    fatal: refusing to merge unrelated histories
+     nik0m@Nikhil MINGW64 ~/Desktop/nik_Workspace/git/practical (master)
+    $ git merge
+    Merge made by the 'ort' strategy.
+    fetch.html 1+
+    1 file changed, 1 insertion(+)
+    create mode 100644 fetch.html
+     nik0m@Nikhil MINGW64 ~/Desktop/nik_Workspace/git/practical (master)
+    $ git pull
+    remote: Enumerating objects: 4, done.
+    remote: Counting objects: 100% (4/4), done.
+    remote: Compressing objects: 100% (2/2), done.
+    remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+    Unpacking objects: 100% (3/3), 968 bytes | 12.00 KiB/s, done.
+    From https://github.com/nikiimisal-1/practical
+    CO 100
+
+
 
 *🏆 Recommended: Fetch + Merge for team collaboration*
 
@@ -150,10 +225,6 @@ git clone https://github.com/user/project.git
 cd project
 git status
 ```
-
-<p align="center">
-  <img src="" width="700" alt="Clone Repository Screenshot">
-</p>
 
 *🚀 Pro Tip: Use SSH URLs for faster, more secure authentication*
 
@@ -170,9 +241,19 @@ git diff HEAD origin/main  # Compare with remote
 git diff feature main      # Branch differences
 ```
 
-<p align="center">
-  <img src="" width="700" alt="Git Diff Screenshot">
-</p>
+O/P Except :
+
+     nik0m@Nikhil MINGW64 ~/Desktop/nik_workspace/git/practical (master|MERGING)
+    $ git diff
+     nik0m@Nikhil MINGW64 ~/Desktop/nik_Workspace/git/practical (master|MERGING)
+    $ git diff --staged
+    diff --git a/pull.html b/pull.html
+    new file mode 100644
+    index 0000000..20864b3
+    -/dev/null
+    +++ b/pull.html
+    @@ -0,0 +1 @@
+    +<h1>pull operation </h1>
 
 *👀 Use Cases: Code reviews, debugging, change validation*
 
@@ -196,9 +277,44 @@ git merge feature-login
 git branch -d feature-login
 ```
 
-<p align="center">
-  <img src="" width="700" alt="Branch and Merge Screenshot">
-</p>
+O/P Except :
+
+
+    nik0m@Nikhil MINGW64 ~/Desktop/nik_Workspace/git/practical (master MERGING)
+    $ git branch feature-login
+    nik0m@Nikhil MINGW64 ~/Desktop/nik_Workspace/git/practical (master (MERGING)
+    $ git checkout feature-login
+    A pull.html
+    Switched to branch 'feature-login'
+    nik0m@Nikhil MINGW64 ~/Desktop/nik_Workspace/git/practical (feature-login)
+    $ echo "Login feature" > login.html
+    nik0m@Nikhil MINGW64 ~/Desktop/nik_Workspace/git/practical (feature-login)
+    $ git add
+    nik0m@Nikhil MINGW64 ~/Desktop/nik_Workspace/git/practical (feature-login)
+    $ git commit -m 'added login.html'
+    [feature-login 951c0d6] added login.html
+    3 files changed, 3 insertions(+)
+    create mode 100644 login.html
+    create mode 100644 pull.html
+    create mode 160000 sample-project
+     nik0m@Nikhil MINGW64 /Desktop/nik_Workspace/git/practical (feature-login)
+    $ git checkout master
+    warning: unable to rmdir 'sample-project': Directory not empty
+    Switched to branch 'master'
+    Your branch and 'origin/master" have diverged,
+    and have 4 and 1 different commits each, respectively.
+    (use "git pull" if you want to integrate the remote branch with yours)
+      nik0m@Nikhil MINGW64 ~/Desktop/nik_Workspace/git/practical (master)
+    $ git merge feature-login
+    Updating eeb9357..951c0d6
+    Fast-forward
+    login.html  | 1+
+    pull.html  | 1+
+    sample-project | 1+
+    3 files changed, 3 insertions(+)
+    create mode 100644 login.html
+    create mode 100644 pull.html
+
 
 *🌊 Professional Practice: One feature per branch, clean merge history*
 
