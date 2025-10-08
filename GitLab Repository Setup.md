@@ -37,7 +37,7 @@
 
 **Generated SSH key pair for secure authentication**
 
-**Registered with email:** `piyushdalvi65@gmail.com`
+**Registered with email:** `nik0misal@gmail.com`
 
 **Key type:** Authentication & Signing
 
@@ -51,7 +51,7 @@ Eliminates the need for password entry during git operations
 
 Foundation for all subsequent Git interactions
 
-**Command To Access ssh key -** `ssh-keygen -t ed25519 "piyushdalvi65@gmail.com"`
+**Command To Access ssh key -** `ssh-keygen -t ed25519 "nik0misal@gmail.com"`
 
 ![](./img/ssh-keygen.png)
 
@@ -64,7 +64,7 @@ Foundation for all subsequent Git interactions
 
 **Set visibility to Private (members-only access)**
 
-**Established group URL:** `https://gitlab.com/piyushdalvi-group1`
+**Established group URL:** `https://gitlab.com/nikiimisal-group1`
 
 ### Why groups matter:
 
@@ -83,7 +83,7 @@ Simplified access control across multiple repositories
 
 **Key Activities:**
 
-**Verified group creation:** `PiyushDalvi-group1`
+**Verified group creation:** `nikiimisal-group1`
 
 **Confirmed empty initial state (no subgroups or projects)**
 
@@ -111,7 +111,7 @@ Simplified access control across multiple repositories
 
 **Set to Private visibility**
 
-**Project URL:** `https://gitlab.com/piyushdslvi-group1`
+**Project URL:** `https://gitlab.com/nikiimisal-group1`
 
 ### Repository Configuration:
 
