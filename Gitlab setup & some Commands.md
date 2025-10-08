@@ -10,9 +10,6 @@ No fancy jargon, just clean steps and screenshots 🎯
 👉 Go to [https://gitlab.com](https://gitlab.com)  
 Click **"Register"** → Sign up using **Google**, **GitHub**, or **email**.
 
-📸 *Example: GitLab signup page*
-
-![GitLab SignUp](https://about.gitlab.com/images/press/gitlab-logo-gray-rgb.svg)
 
 ---
 
@@ -38,7 +35,7 @@ Verify installation:
 
     git --version
 
-    🔑 3. Create SSH Key (Secure Login to GitLab)
+## 🔑 3. Create SSH Key (Secure Login to GitLab)
 
 We’ll use SSH instead of HTTPS for smoother push/pull access.
 
@@ -54,23 +51,23 @@ Then copy your SSH key:
 
 📋 Copy the full key shown on screen.
 
-⚙️ 4. Add SSH Key to GitLab
+## ⚙️ 4. Add SSH Key to GitLab
 
 Now go to your GitLab account:
 
-Click on your Profile Picture → Edit Profile
+1. Click on your Profile Picture → Edit Profile
 
-In sidebar → Access → SSH Keys
+2. In sidebar → Access → SSH Keys
 
-Paste your copied key into the field.
+3. Paste your copied key into the field.
 
-Give it a title (like “My Laptop Key”)
+4. Give it a title (like “My Laptop Key”)
 
-Click Add key
+5. Click Add key
 
-📸 Example SSH Key Page:
 
-🧩 5. Configure Git
+
+## 🧩 5. Configure Git
 
 Set your username and email (same as GitLab):
 
@@ -82,21 +79,20 @@ Check:
 
     git config --list
 
-📂 6. Create a New Repository on GitLab
+## 📂 6. Create a New Repository on GitLab
 
-Click New Project → Create Blank Project
+1. Click New Project → Create Blank Project
 
-Enter:
+2. Enter:
 
-Project Name (e.g., my-first-gitlab)
+ • Project Name (e.g., `my-first-gitlab`)
 
-Visibility: Public or Private
+ • Visibility: `Public` or `Private`
 
-Click Create Project
+3. Click Create Project
 
-📸 Example Project Creation Page
 
-🔄 7. Push Your First Code to GitLab
+## 🔄 7. Push Your First Code to GitLab
 
 In your terminal:
 
@@ -108,11 +104,11 @@ In your terminal:
     git push -u origin main
 
 
-(Replace username with your GitLab username)
+(Replace `username` with your GitLab username)
 
 🎉 Congrats! Your code is now live on GitLab.
 
-🧠 8. Verify SSH Connection (Optional but Helpful)
+## 🧠 8. Verify SSH Connection (Optional but Helpful)
 
 To check your SSH setup:
 
@@ -126,7 +122,7 @@ If you see something like 👇
 
 you’re good to go! ✅
 
-🚀 9. Basic Git Commands Reference
+## 🚀 9. Basic Git Commands Reference
 
 | Command               | Description              |
 | --------------------- | ------------------------ |
@@ -136,18 +132,21 @@ you’re good to go! ✅
 | `git pull`            | Get updates from GitLab  |
 | `git status`          | See changed files        |
 
+
+## 🧭 10. Done & Explore More!
+
 You’ve now set up your GitLab from scratch, connected via SSH, and pushed your first code!
 Try exploring:
 
-CI/CD Pipelines
+• CI/CD Pipelines
 
-Issue Boards
+• Issue Boards
 
-Merge Requests
+• Merge Requests
 
 💡 GitLab is not just hosting — it’s a full DevOps powerhouse.
 
-❤️ Support & Connect
+## ❤️ Support & Connect
 
 If you liked this guide, give it a ⭐ on your repo or share it!
 Happy coding 🧑‍💻
