@@ -245,7 +245,7 @@ git commit -m "fix: resolve merge conflict in header.html"
 ```
 
 <p align="center">
-  <img src="screenshots/conflict-resolved.png" width="700" alt="Conflict Resolved Screenshot">
+  <img src="https://github.com/nikiimisal/Git-Github-GitLab/blob/main/img/git3.png?raw=true" width="700" alt="Conflict Resolved Screenshot">
 </p>
 
 *✅ Best Practice: Always discuss conflict resolutions with your teammate before finalizing.*
