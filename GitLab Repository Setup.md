@@ -27,7 +27,7 @@
 
 4.**Code Deployment -** Pushing code and verification
 
-![](./img/gitlab%20overview.png)
+![](./img/https://github.com/nikiimisal/Git-Github-GitLab/blob/main/img/gitlab%20overview.png?raw=true)
 
 ## Stage 1: SSH Key Configuration 🔑
 
