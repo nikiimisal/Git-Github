@@ -163,6 +163,64 @@ git remote add origin https://github.com/username/my-project.git <br>
 
 
 
+## 🧠 Git Command Cheat Sheet
+
+Here’s a simple list of the most used **Git commands** with explanations and usage examples — easy to remember, easy to use. 🚀
+
+| Command | Description | Example |
+| -------- | ------------ | -------- |
+| `git init` | Create a new local Git repository in your project folder | `git init` |
+| `git clone <repo-url>` | Clone (download) a Git repository from GitHub/GitLab to your system | `git clone git@gitlab.com:username/project.git` |
+| `git status` | Show current changes, staged files, and branch info | `git status` |
+| `git add .` | Add all files for the next commit | `git add .` |
+| `git add <file>` | Add a specific file to commit | `git add index.html` |
+| `git commit -m "message"` | Commit changes with a message | `git commit -m "Initial commit"` |
+| `git log` | Show commit history | `git log` |
+| `git diff` | Show differences between modified files and last commit | `git diff` |
+| `git branch` | List all local branches | `git branch` |
+| `git branch <name>` | Create a new branch | `git branch feature-login` |
+| `git checkout <branch>` | Switch to another branch | `git checkout main` |
+| `git checkout -b <branch>` | Create and switch to a new branch | `git checkout -b dev` |
+| `git merge <branch>` | Merge another branch into the current one | `git merge dev` |
+| `git remote -v` | List all linked remote repositories | `git remote -v` |
+| `git remote add origin <url>` | Connect your local repo to a remote one | `git remote add origin git@gitlab.com:user/repo.git` |
+| `git push -u origin main` | Push your code to the remote repo (main branch) | `git push -u origin main` |
+| `git push` | Push latest commits to remote | `git push` |
+| `git pull` | Fetch and merge changes from remote | `git pull` |
+| `git fetch` | Download latest commits without merging | `git fetch` |
+| `git reset <file>` | Unstage a file added to commit | `git reset index.html` |
+| `git reset --hard` | Reset all changes to last commit | `git reset --hard` |
+| `git rm <file>` | Remove a file from Git tracking | `git rm old.txt` |
+| `git mv <old> <new>` | Rename or move a file | `git mv oldname.txt newname.txt` |
+| `git stash` | Temporarily save uncommitted changes | `git stash` |
+| `git stash pop` | Reapply the last stashed changes | `git stash pop` |
+| `git rebase <branch>` | Reapply commits on top of another branch | `git rebase main` |
+| `git tag <name>` | Create a new tag for a commit (versioning) | `git tag v1.0` |
+| `git show <commit-id>` | Show details of a specific commit | `git show a1b2c3d` |
+| `git config --global user.name "Your Name"` | Set your username | `git config --global user.name "Nikki"` |
+| `git config --global user.email "you@example.com"` | Set your email | `git config --global user.email "nikki@example.com"` |
+| `git revert <commit-id>` | Undo a specific commit (safely creates a new commit) | `git revert a1b2c3d` |
+| `git log --oneline` | Show commits in a short one-line format | `git log --oneline` |
+| `git branch -d <branch>` | Delete a branch locally | `git branch -d dev` |
+| `git push origin --delete <branch>` | Delete a branch remotely | `git push origin --delete dev` |
+| `git clean -fd` | Delete all untracked files and folders | `git clean -fd` |
+| `git blame <file>` | Show who last edited each line in a file | `git blame app.js` |
+| `git show-branch` | Show branches and commits graphically | `git show-branch` |
+| `git reflog` | Show history of all your HEAD changes | `git reflog` |
+| `git help <command>` | Get help for a Git command | `git help push` |
+
+---
+
+## 🧩 Common Git Workflows
+
+### 🔹 Start a New Project
+```bash
+git init
+git add .
+git commit -m "Initial commit"
+git branch -M main
+git remote add origin git@gitlab.com:user/repo.git
+git push -u origin main
 
 
 
