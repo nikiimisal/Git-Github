@@ -214,18 +214,38 @@ Here’s a simple list of the most used **Git commands** with explanations and u
 ## 🧩 Common Git Workflows
 
 ### 🔹 Start a New Project
-```bash
-git init
-git add .
-git commit -m "Initial commit"
-git branch -M main
-git remote add origin git@gitlab.com:user/repo.git
-git push -u origin main
+
+    git init
+    git add .
+    git commit -m "Initial commit"
+    git branch -M main
+    git remote add origin git@gitlab.com:user/repo.git
+    git push -u origin main
+
+## 🔹 Work on a New Feature
+
+    git checkout -b feature-login
+    # make changes
+    git add .
+    git commit -m "Added login page"
+    git push origin feature-login
+    
+## 🔹 Merge Feature to Main
+
+    git checkout main
+    git pull
+    git merge feature-login
+    git push
 
 
+## 🎨 Bonus: Make Your Terminal Look Cool
 
+To view Git branches and status in your prompt, enable Git Bash Prompt or use Oh My Zsh (for macOS/Linux).
+It helps you instantly see which branch you’re on ⚡
 
+❤️ Pro Tip
 
+If you ever get stuck:
 
-
+    git status
 
