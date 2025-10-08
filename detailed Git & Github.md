@@ -29,7 +29,7 @@ git push -u origin main
 ```
 
 <p align="center">
-  <img src="" width="700" alt="Initialize Repository Screenshot">
+  <img src="https://github.com/nikiimisal/Git-Github-GitLab/blob/main/img/git1.png?raw=true" width="700" alt="Initialize Repository Screenshot">
 </p>
 
 ---
@@ -373,7 +373,7 @@ git commit -m "fix: resolve merge conflict in header.html"
 ```
 
 <p align="center">
-  <img src="" width="700" alt="Conflict Resolved Screenshot">
+  <img src="https://github.com/nikiimisal/Git-Github-GitLab/blob/main/img/git4.png?raw=true" width="700" alt="Conflict Resolved Screenshot">
 </p>
 
 *✅ Best Practice: Always discuss conflict resolutions with your teammate before finalizing.*
