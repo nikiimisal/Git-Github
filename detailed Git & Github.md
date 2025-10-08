@@ -49,10 +49,22 @@ git status
 Untracked files:
   index.html
 ```
+    nik0m@Nikhil MINGW64 ~/Desktop/nik_Workspace/git/practical (master)
+    $ git status
+    On branch master
+    Your branch is up to date with 'origin/master'.
+    nothing to commit, working tree clean
+    nik0m@Nikhil MINGW64 ~/Desktop/nik_workspace/git/practical (master)
+    $ echo "Hello World" > index.html
+    git status
+    On branch master
+    Your branch is up to date with 'origin/master'.
+    Changes not staged for commit:
+    (use "git add <file>..." to update what will be committed)
+    (use "git restore <file>..." to discard changes in working directory)
+    modified: index.html
+    no changes added to commit (use "git add" and/or "git commit -a")
 
-<p align="center">
-  <img src="" width="700" alt="Git Status Screenshot">
-</p>
 
 ---
 
