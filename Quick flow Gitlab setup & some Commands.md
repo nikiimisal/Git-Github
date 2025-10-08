@@ -151,6 +151,9 @@ Try exploring:
 If you liked this guide, give it a ⭐ on your repo or share it!
 Happy coding 🧑‍💻
 
+<br>
+<br>
+<br>
 
 ## Some Commands
 
@@ -323,7 +326,6 @@ Happy coding 🧑‍💻
 You now know every command needed to work confidently with **Git + GitLab** 🚀  
 Keep experimenting, keep learning!
 
-![GitLab Hero](https://about.gitlab.com/images/press/gitlab-logo-500.png)
 
 
 
